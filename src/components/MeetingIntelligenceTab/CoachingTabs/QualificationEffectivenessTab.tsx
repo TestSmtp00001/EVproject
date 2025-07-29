@@ -418,7 +418,7 @@ const QualificationEffectivenessTab: React.FC = () => {
                     </div>
                     
                     <div className="space-y-3">
-                      <h4 className="font-semibold text-gray-900 flex items-center space-x-2">
+                      <h4 className="text-sm font-semibold text-gray-900 flex items-center space-x-2">
                         <Shield className="w-5 h-5 text-red-600 flex-shrink-0" />
                         <span>Strategic & Competitive Risks</span>
                       </h4>
