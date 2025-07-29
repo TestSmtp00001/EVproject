@@ -350,7 +350,7 @@ const QualificationEffectivenessTab: React.FC = () => {
                   <div key={index} className="flex items-start space-x-3">  
                     <div className="w-2 h-2 bg-[#605BFF] rounded-full mt-2 flex-shrink-0"></div>
                     <div className="flex-1">
-                      <p className="text-gray-900 leading-relaxed">{recommendation}</p>
+                      <p className="text-xs text-gray-900 leading-relaxed">{recommendation}</p>
                     </div>
                   </div>
                 ))}
