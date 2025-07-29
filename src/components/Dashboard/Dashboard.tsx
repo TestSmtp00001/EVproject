@@ -115,21 +115,15 @@ function Dashboard() {
       {/* Header */}
       <header className="bg-white border-b border-gray-200 px-3 sm:px-6 py-3 sm:py-4">
         <div className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:items-center sm:space-x-8">
-            <div className="flex items-center space-x-3 sm:space-x-6">
-              <h1 className="text-xl sm:text-2xl font-bold text-gray-900">Dashboard</h1>
-              <div className="flex items-center space-x-2 text-gray-600">
-                <Calendar className="w-3 h-3 sm:w-4 sm:h-4" />
-                <span className="text-xs sm:text-sm" style={{fontSize: '11px'}}>{currentDateTime}</span>
-              </div>
-            </div>
+          <div className="flex flex-col space-y-3">
+  
             
-            {/* Time Range Dropdown */}
-            <div className="relative">
+            {/* Time Range Dropdown - Full Width Row */}
+            <div className="w-full">
               <select
                 value={selectedTimeRange}
                 onChange={(e) => setSelectedTimeRange(e.target.value)}
-                className="bg-transparent text-gray-700 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#605BFF] rounded-md px-2 py-1 w-full sm:w-auto"
+                className="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#605BFF] focus:border-[#605BFF] rounded-md px-3 py-2 w-full"
                 style={{fontSize: '11px'}}
               >
                 {timeRanges.map((range) => (
@@ -140,12 +134,13 @@ function Dashboard() {
               </select>
             </div>
 
-            {/* Dropdowns */}
-            <div className="flex flex-col space-y-2 sm:space-y-0 sm:flex-row sm:items-center sm:space-x-4">
+            {/* Team and User Dropdowns Row */}
+            <div className="flex flex-row items-center space-x-4 w-full">
+              {/* Select Team */}
               <select
                 value={selectedTenant}
                 onChange={(e) => setSelectedTenant(e.target.value)}
-                className="bg-transparent text-gray-700 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#605BFF] rounded-md pl-2 pr-8 py-1 w-full sm:w-auto"
+                className="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#605BFF] focus:border-[#605BFF] rounded-md px-3 py-2 flex-1"
                 style={{fontSize: '11px'}}
               >
                 <option value="">Select Team</option>
@@ -154,10 +149,11 @@ function Dashboard() {
                 ))}
               </select>
 
+              {/* Select User */}
               <select
                 value={selectedUser}
                 onChange={(e) => setSelectedUser(e.target.value)}
-                className="bg-transparent text-gray-700 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#605BFF] rounded-md px-2 py-1 w-full sm:w-auto"
+                className="bg-white border border-gray-300 text-gray-700 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#605BFF] focus:border-[#605BFF] rounded-md px-3 py-2 flex-1"
                 style={{fontSize: '11px'}}
               >
                 <option value="">Select User</option>
