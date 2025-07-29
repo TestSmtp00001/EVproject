@@ -274,7 +274,7 @@ const QualificationEffectivenessTab: React.FC = () => {
                           {section.whatWasUncovered.map((item, index) => (
                             <div key={index} className="flex items-start space-x-2">
                               <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                              <span className="text-sm text-gray-700">{item}</span>
+                              <span className="text-xs text-gray-700">{item}</span>
                             </div>
                           ))}
                         </div>
@@ -290,7 +290,7 @@ const QualificationEffectivenessTab: React.FC = () => {
                           {section.gap.map((item, index) => (
                             <div key={index} className="flex items-start space-x-2">
                               <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                              <span className="text-sm text-gray-700">{item}</span>
+                              <span className="text-xs text-gray-700">{item}</span>
                             </div>
                           ))}
                         </div>
@@ -306,7 +306,7 @@ const QualificationEffectivenessTab: React.FC = () => {
                           {section.recommendedQuestions.map((question, index) => (
                             <div key={index} className="flex items-start space-x-2">
                               <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                              <span className="text-sm text-gray-700">{question}</span>
+                              <span className="text-xs text-gray-700">{question}</span>
                             </div>
                           ))}
                         </div>
