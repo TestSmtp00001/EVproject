@@ -425,19 +425,19 @@ const QualificationEffectivenessTab: React.FC = () => {
                       <div className="space-y-2 text-sm text-gray-700">
                         <div className="flex items-start space-x-2 ml-7">
                           <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>Competitive disadvantage if other vendors are selected</span>
+                          <span className="text-xs text-gray-700">Competitive disadvantage if other vendors are selected</span>
                         </div>
                         <div className="flex items-start space-x-2 ml-7">
                           <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>Lost opportunities for volume pricing and favorable terms</span>
+                          <span className="text-xs text-gray-700">Lost opportunities for volume pricing and favorable terms</span>
                         </div>
                         <div className="flex items-start space-x-2 ml-7">
                           <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>Potential for competitor to establish foothold in organization</span>
+                          <span className="text-xs text-gray-700">Potential for competitor to establish foothold in organization</span>
                         </div>
                         <div className="flex items-start space-x-2 ml-7">
                           <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>Team morale impact from continued operational challenges</span>
+                          <span className="text-xs text-gray-700">Team morale impact from continued operational challenges</span>
                         </div>
                       </div>
                     </div>
