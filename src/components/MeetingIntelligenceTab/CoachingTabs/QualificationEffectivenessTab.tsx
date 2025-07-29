@@ -400,19 +400,19 @@ const QualificationEffectivenessTab: React.FC = () => {
                       <div className="space-y-2 text-sm text-gray-700">
                         <div className="flex items-start space-x-2 ml-7">
                           <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>Continued 23% efficiency losses costing significant productivity</span>
+                          <span className="text-xs text-gray-700">Continued 23% efficiency losses costing significant productivity</span>
                         </div>
                         <div className="flex items-start space-x-2 ml-7">
                           <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>Missing Q4 efficiency targets and board expectations</span>
+                          <span className="text-xs text-gray-700">Missing Q4 efficiency targets and board expectations</span>
                         </div>
                         <div className="flex items-start space-x-2 ml-7">
                           <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>Increased operational costs due to inefficient processes</span>
+                          <span className="text-xs text-gray-700">Increased operational costs due to inefficient processes</span>
                         </div>
                         <div className="flex items-start space-x-2 ml-7">
                           <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>Delayed ROI realization pushing benefits into next fiscal year</span>
+                          <span className="text-xs text-gray-700">Delayed ROI realization pushing benefits into next fiscal year</span>
                         </div>
                       </div>
                     </div>
