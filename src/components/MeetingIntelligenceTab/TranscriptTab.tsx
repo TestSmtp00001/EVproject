@@ -251,4 +251,4 @@ const TranscriptTab: React.FC = () => {
   );
 };
 
-export default TranscriptTab;a
+export default TranscriptTab;
