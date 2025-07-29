@@ -393,7 +393,7 @@ const QualificationEffectivenessTab: React.FC = () => {
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-3">
-                      <h4 className="font-semibold text-gray-900 flex items-center space-x-2">
+                      <h4 className="text-sm font-semibold text-gray-900 flex items-center space-x-2">
                         <DollarSign className="w-5 h-5 text-red-600 flex-shrink-0" />
                         <span>Financial & Operational Impact</span>
                       </h4>
