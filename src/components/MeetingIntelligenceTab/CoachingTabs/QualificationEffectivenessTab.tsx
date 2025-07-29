@@ -332,7 +332,7 @@ const QualificationEffectivenessTab: React.FC = () => {
             </div>
             <div>
               <div className="flex items-center space-x-3">
-                <h3 className="text-lg font-semibold text-gray-900">Summary of Recommendations</h3>
+                <h3 className="text-sm font-semibold text-gray-900">Summary of Recommendations</h3>
               </div>
             </div>
           </div>
