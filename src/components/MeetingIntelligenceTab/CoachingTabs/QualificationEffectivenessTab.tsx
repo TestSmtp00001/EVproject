@@ -372,7 +372,7 @@ const QualificationEffectivenessTab: React.FC = () => {
             </div>
             <div>
               <div className="flex items-center space-x-3">
-                <h3 className="text-lg font-semibold text-gray-900">Consequences of Inaction</h3>
+                <h3 className="text-sm font-semibold text-gray-900">Consequences of Inaction</h3>
               </div>
             </div>
           </div>
@@ -387,7 +387,7 @@ const QualificationEffectivenessTab: React.FC = () => {
             <div className="border-t border-gray-100 pt-4">
               <div className="space-y-4">
                 <div className="p-4 rounded-lg">
-                  <p className="text-gray-700 mb-4">
+                  <p className="text-xs text-gray-700 mb-4">
                     The consequences of not moving forward with this solution were not explicitly outlined during the meeting, but based on the discussion, several critical risks emerge. The salesperson missed an opportunity to create urgency by not directly asking about the impact of maintaining the status quo with 23% efficiency losses and Q4 target pressures.
                   </p>
                   
